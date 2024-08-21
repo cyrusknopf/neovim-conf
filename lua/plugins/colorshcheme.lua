@@ -1,20 +1,13 @@
--- return {
---     { "rebelot/kanagawa.nvim" },
---
---   {
---     "LazyVim/LazyVim",
---     opts = {
---       colorscheme = "kanagawa",
---     },
---   },
--- }
 return {
+  { "rebelot/kanagawa.nvim" },
   { "shaunsingh/nord.nvim" },
-
+  { "EdenEast/nightfox.nvim" },
+  { "savq/melange-nvim" },
+  { "neanias/everforest-nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nord",
+      colorscheme = "everforest",
     },
   },
 }
