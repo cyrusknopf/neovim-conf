@@ -15,10 +15,10 @@ vim.o.breakindent = true
 vim.o.showbreak = "↪ "
 
 -- macOS PDF viewer settings
-vim.g.vimtex_view_method = "sioyek"
+-- vim.g.vimtex_view_method = "sioyek"
 
 -- Configure vimtex to use pdflatex
-vim.g.vimtex_compiler_method = "pdflatex"
+vim.g.vimtex_compiler_method = "latexmk"
 
 -- Ensure vimtex is loaded
 vim.g.vimtex_enabled = 1
