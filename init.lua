@@ -15,7 +15,8 @@ vim.o.breakindent = true
 vim.o.showbreak = "↪ "
 
 -- macOS PDF viewer settings
--- vim.g.vimtex_view_method = "sioyek"
+vim.g.vimtex_view_method = "zathura"
+vim.g.vimtex_view_general_viewer = "/opt/homebrew/bin/zathura"
 
 -- Configure vimtex to use pdflatex
 vim.g.vimtex_compiler_method = "latexmk"
