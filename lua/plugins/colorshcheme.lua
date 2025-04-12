@@ -11,4 +11,10 @@ return {
       colorscheme = "moonfly",
     },
   },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "duskfox",
+    },
+  },
 }
